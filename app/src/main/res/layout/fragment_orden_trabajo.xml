@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orden_trabajo_info"
+            android:background="#000"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orden_trabajo_inventario"
+            android:background="#DF0101"
+            android:textColor="#ffff"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_inventario"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:text="@string/button_inventario_info"/>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DF0101">
+
+            <TextView
+                android:id="@+id/tv_mantenimientos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/orden_trabajo_mantenimientos_info"
+                android:textSize="15sp"
+                android:textColor="#ffff"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/tv_mantenimientos"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:entries="@array/mantenimientos_programados"
+
+                ></Spinner>
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/orden_trabajo_servicios"
+            android:background="#DF0101"
+            android:textColor="#ffff"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/btn_servicios"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:text="@string/button_servicios_info"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orden_trabajo_aceites"
+            android:background="#DF0101"
+            android:textColor="#ffff"
+            android:textSize="15sp"/>
+        <ListView
+            android:id="@+id/list_aceites"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:entries="@array/list_aceites"
+            >
+
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DF0101">
+
+        <TextView
+            android:id="@+id/tv_repuestos_usados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/orden_trabajo_repuestos_usados"
+            android:textSize="15sp"
+            android:textColor="#ffff"/>
+
+            <CheckBox
+                android:id="@+id/cb_si"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_repuestos_usados"
+                android:layout_marginLeft="20dp"
+                android:text="@string/si"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/cb_si"
+                android:text="@string/no" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+
+                >
+                <ImageButton
+                    android:id="@+id/ib_cancel"
+                    android:background="@drawable/btn_cancel"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+
+                >
+                <ImageButton
+                    android:id="@+id/ib_submit"
+                    android:background="@drawable/btn_ok"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

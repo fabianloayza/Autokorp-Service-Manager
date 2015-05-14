@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ASM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="automovil_list_empty_list">Empty</string>
+    <string name="search">Buscar</string>
+    <string name="enter">Enter</string>
+    <string name="cliente_list_empty_list">Empty</string>
+    <string name="open_camera">OpenCamera</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+
+    <array name="tabs">
+        <item>Automoviles</item>
+        <item>Clientes</item>
+        <item>Procesos</item>
+        <item>Herramientas</item>
+        <item>Opciones</item>
+    </array>
+
+
+
+    <!--Automovil Info-->
+    <string name="automovil_info_marca_label">Marca</string>
+    <string name="automovil_info_modelo_label">Modelo</string>
+    <string name="automovil_info_tipo_label">Tipo</string>
+    <string name="automovil_info_placa_label">Placa</string>
+    <string name="automovil_info_add_automovil">Adicionar Automovil</string>
+    <string name="automovil_info_edit_automovil">Editar</string>
+    <string name="automovil_info_delete_automovil">Eliminar</string>
+    <string name="automovil_info_chasis_label">Chasis</string>
+    <string name="automovil_info_km_label">Km</string>
+    <string name="automovil_info_color_label">Color</string>
+    <string name="automovil_info_motor_label">Motor</string>
+    <string name="automovil_info_activity_title">Informacion Automovil</string>
+    <string name="add_orden_trabajo">Adicionar Orden Trabajo</string>
+
+
+
+    <!--Add Automovil-->
+    <string name="add_automovil_activity_title">Adicionar Automovil</string>
+    <string name="add_automovil_save_automovil">Guardar</string>
+    <string name="add_automovil_saving_label">Guardando&#8230;</string>
+
+    <!--Cliente Info-->
+
+    <string name="cliente_info_apellido_pat_label">Apellido Paterno</string>
+    <string name="cliente_info_apellido_mat_label">Apellido Materno</string>
+    <string name="cliente_info_nombre_label">Nombre</string>
+    <string name="cliente_info_ci_label">Carnet de Identidad</string>
+    <string name="cliente_info_telefono_label">Telefono</string>
+    <string name="cliente_info_email_label">Email</string>
+    <string name="cliente_info_add_cliente">Adicionar Cliente</string>
+    <string name="cliente_info_cliente">CLIENTE</string>
+    <string name="cliente_info_activity">Informacion Cliente</string>
+
+
+    <!--Add Cliente-->
+
+    <string name="add_cliente_activity_title">Adicionar Cliente</string>
+
+    <!--Orden de Trabajo-->
+    <string name="orden_trabajo_info">Orden de Trabajo</string>
+    <string name="orden_trabajo_inventario">Inventario</string>
+    <string name="orden_trabajo_mantenimientos_info">Mantenimientos Programados</string>
+    <string name="button_inventario_info">Llenar Inventario</string>
+    <string name="orden_trabajo_servicios">Servicios</string>
+    <string name="button_servicios_info">Llenar Servicios</string>
+    <string name="orden_trabajo_aceites">Aceites y Filtros / Lavado</string>
+    <string name="orden_trabajo_repuestos_usados">Devolucion Repuestos Usados</string>
+    <string name="inventario_activity_title">Inventario</string>
+
+    <!--Testing-->
+
+    <array name="list_test">
+        <item>List Item 1</item>
+        <item>List Item 2</item>
+        <item>List Item 3</item>
+        <item>List Item 4</item>
+        <item>List Item 5</item>
+        <item>List Item 6</item>
+        <item>List Item 7</item>
+        <item>List Item 8</item>
+        <item>List Item 9</item>
+        <item>List Item 10</item>
+
+    </array>
+
+    <array name="list_aceites">
+        <item>Motor y Filtro</item>
+        <item>Caja</item>
+        <item>Corona Delantera</item>
+        <item>Corona Trasera</item>
+        <item>Roster</item>
+        <item>Filtro Aire</item>
+        <item>Filtro Gas</item>
+        <item>Lavado Completo</item>
+    </array>
+
+    <array name="mantenimientos_programados">
+        <item>Pre-Entrega</item>
+        <item>1.000 Km</item>
+        <item>3.000 Km</item>
+        <item>6.000 Km</item>
+        <item>9.000 Km</item>
+        <item>10.000 Km</item>
+    </array>
+
+    <array name="list_inventario">
+        <item>Radio</item>
+        <item>Encendedor</item>
+        <item>Cenicero</item>
+        <item>Cable USB</item>
+        <item>Espejo Interior</item>
+        <item>Pisos</item>
+        <item>Extintor</item>
+        <item>Gata</item>
+        <item>Herramienta</item>
+        <item>Llave Rueda</item>
+        <item>Llanta Auxiliar</item>
+        <item>Varilla</item>
+        <item>Triangulo</item>
+        <item>Botiquin</item>
+        <item>Emblema</item>
+        <item>Parabrisas</item>
+        <item>Escobilla</item>
+        <item>Tapa Cubos</item>
+        <item>Tapa Gasolina</item>
+        <item>Espejos Laterales</item>
+        <item>Antena</item>
+        <item>Guiñadores</item>
+        <item>Faroles</item>
+        <item>Stops</item>
+    </array>
+
+
+</resources>

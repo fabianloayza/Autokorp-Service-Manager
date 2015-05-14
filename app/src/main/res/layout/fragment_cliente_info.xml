@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:fillViewport="true"
+            android:background="#9999"
+            tools:context=".ClienteInfoActivity">
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/rl_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_with_shadow"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Informacion"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/tv_nombre"
+                android:layout_below="@+id/tv_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cliente_info_nombre_label"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:id="@+id/tv_apellido_pat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nombre"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="@string/cliente_info_apellido_pat_label"
+
+                />
+            <TextView
+                android:id="@+id/tv_apellido_mat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_apellido_pat"
+                android:layout_alignBottom="@+id/tv_apellido_pat"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cliente_info_apellido_mat_label"/>
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_info"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_with_shadow"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+            >
+
+           <TextView
+               android:id="@+id/tv_telefono_info"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:text="@string/cliente_info_telefono_label"
+
+            />
+            <TextView
+                android:id="@+id/tv_telefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_telefono_info"
+                android:text="@string/cliente_info_telefono_label"
+                android:textSize="18dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/ib_call"
+                android:layout_width="@dimen/activity_vertical_margin"
+                android:layout_height="@dimen/activity_vertical_margin"
+                android:layout_alignBottom="@+id/tv_telefono"
+                android:background="@drawable/ic_call"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+
+                />
+            <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_toLeftOf="@+id/ib_call"-->
+                <!--android:layout_alignBottom="@+id/ib_call"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:background="@color/primary_dark_material_dark" />-->
+            <TextView
+                android:id="@+id/tv_email_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/cliente_info_email_label"
+                android:layout_below="@+id/tv_telefono"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_email_info"
+                android:text="@string/cliente_info_email_label"
+
+                />
+             <ImageButton
+                 android:id="@+id/ib_send_email"
+                 android:layout_width="@dimen/activity_vertical_margin"
+                 android:layout_height="@dimen/activity_vertical_margin"
+                 android:layout_marginRight="30dp"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignBottom="@+id/tv_email"
+                 android:background="@drawable/ic_send_email"
+              />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_telefono"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/primary_dark_material_dark" />
+
+         </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+</ScrollView>
+
