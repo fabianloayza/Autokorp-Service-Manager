@@ -51,12 +51,9 @@
 
         <ListView
             android:id="@+id/list_inv"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:entries="@array/list_inventario"
-
-            >
-
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="multipleChoice">
         </ListView>
 
     </LinearLayout>
